@@ -1,5 +1,6 @@
 # Configuración principal de Pelican
 # ====================================
+# v1.0 - Primer despliegue
 
 # --- Información del sitio ---
 SITENAME = "Gabriel Hernández | Economista"
