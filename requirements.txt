@@ -1,0 +1,4 @@
+pelican[markdown]
+pelican-seo
+beautifulsoup4
+typogrify
