@@ -33,6 +33,10 @@ CATEGORY_URL = "categoria/{slug}/"
 CATEGORY_SAVE_AS = "categoria/{slug}/index.html"
 TAG_URL = "etiqueta/{slug}/"
 TAG_SAVE_AS = "etiqueta/{slug}/index.html"
+TAGS_URL = "etiquetas/"
+CATEGORIES_URL = "categorias/"
+ARCHIVES_URL = "archivos/"
+AUTHORS_URL = "autores/"
 
 # --- Paginación ---
 DEFAULT_PAGINATION = 6
@@ -78,27 +82,19 @@ SEO_ENHANCER = True
 SEO_ENHANCER_OPEN_GRAPH = True
 SEO_ENHANCER_TWITTER_CARDS = True
 
-# --- Tema (Flex) ---
-THEME = "themes/flex"
-SITETITLE = "Gabriel Hernández"
-MAIN_MENU = True
+# --- Tema (Attila - estilo Medium/revista) ---
+THEME = "themes/attila"
+HEADER_COLOR = "#1a2a3a"  # Color de fondo del header (azul grisáceo profesional)
+SITE_DESCRIPTION = SITEDESCRIPTION
+SHOW_PAGES_ON_MENU = True
+SHOW_CATEGORIES_ON_MENU = True
+
 MENUITEMS = (
     ("Inicio", "/"),
     ("Investigaciones", "/categoria/investigaciones/"),
     ("Proyectos", "/pages/proyectos/"),
     ("Sobre mí", "/pages/sobre-mi/"),
 )
-HOME_HIDE_TAGS = True
-
-# --- CSS Personalizado ---
-CUSTOM_CSS = "extras/custom.css"
-
-# --- Tema oscuro por defecto ---
-THEME_COLOR = "dark"
-DARK_THEME = "dark"
-
-# --- Google Fonts (las cargamos desde custom.css) ---
-USE_GOOGLE_FONTS = False
 
 # --- Pygments (colores de código) ---
 PYGMENTS_STYLE = "monokai"
