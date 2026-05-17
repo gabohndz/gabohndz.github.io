@@ -99,8 +99,8 @@ THEME = "themes/attila"
 HEADER_COVER = "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1600&q=80"
 HEADER_COLOR = "#1a2a3a"
 SITE_DESCRIPTION = SITEDESCRIPTION
-SHOW_PAGES_ON_MENU = True
-SHOW_CATEGORIES_ON_MENU = True
+SHOW_PAGES_ON_MENU = False
+SHOW_CATEGORIES_ON_MENU = False
 
 MENUITEMS = (
     ("Inicio", "/"),

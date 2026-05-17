@@ -1,20 +1,25 @@
-/* Capa oscura sobre la imagen de portada */
-.blog-header.has-cover {
-    text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+/* Capa oscura sobre la imagen de portada - Home y Artículos */
+.blog-header.has-cover,
+.post-header.has-cover {
+    text-shadow: 0 2px 10px rgba(0,0,0,0.85);
 }
 
-.blog-header.has-cover::before {
+.blog-header.has-cover::before,
+.post-header.has-cover::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.45);
+    background: rgba(0, 0, 0, 0.4);
     z-index: 6;
 }
 
-.blog-header.has-cover .blog-box {
+.blog-header.has-cover .blog-box,
+.post-header.has-cover .post-info,
+.post-header.has-cover .post-title,
+.post-header.has-cover .post-meta {
     position: relative;
     z-index: 10;
 }
