@@ -73,11 +73,14 @@ LINKS = (
 # --- Avatar / Foto de perfil ---
 AUTHOR_META = {
     "gabriel hernández": {
-        "image": "/images/tu-foto.jpg",
+        "image": "/images/tu-foto.jpeg",
         "name": "Gabriel Hernández",
         "bio": "Economista apasionado por el análisis de datos y la automatización.",
     }
 }
+
+# --- CSS personalizado ---
+CSS_OVERRIDE = ["extras/custom-overlay.css"]
 
 # --- Plugins ---
 PLUGIN_PATHS = []
