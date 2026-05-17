@@ -70,6 +70,15 @@ LINKS = (
     ("GitHub", "https://github.com/gabohndz"),
 )
 
+# --- Avatar / Foto de perfil ---
+AUTHOR_META = {
+    "gabriel hernández": {
+        "image": "/images/tu-foto.jpg",
+        "name": "Gabriel Hernández",
+        "bio": "Economista apasionado por el análisis de datos y la automatización.",
+    }
+}
+
 # --- Plugins ---
 PLUGIN_PATHS = []
 PLUGINS = [
@@ -84,7 +93,8 @@ SEO_ENHANCER_TWITTER_CARDS = True
 
 # --- Tema (Attila - estilo Medium/revista) ---
 THEME = "themes/attila"
-HEADER_COLOR = "#1a2a3a"  # Color de fondo del header (azul grisáceo profesional)
+HEADER_COVER = "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1600&q=80"
+HEADER_COLOR = "#1a2a3a"
 SITE_DESCRIPTION = SITEDESCRIPTION
 SHOW_PAGES_ON_MENU = True
 SHOW_CATEGORIES_ON_MENU = True
