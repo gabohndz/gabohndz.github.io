@@ -90,6 +90,16 @@ MENUITEMS = (
 )
 HOME_HIDE_TAGS = True
 
+# --- CSS Personalizado ---
+CUSTOM_CSS = "extras/custom.css"
+
+# --- Tema oscuro por defecto ---
+THEME_COLOR = "dark"
+DARK_THEME = "dark"
+
+# --- Google Fonts (las cargamos desde custom.css) ---
+USE_GOOGLE_FONTS = False
+
 # --- Pygments (colores de código) ---
 PYGMENTS_STYLE = "monokai"
 
