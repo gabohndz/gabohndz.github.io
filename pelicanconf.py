@@ -84,7 +84,7 @@ SITETITLE = "Gabriel Hernández"
 MAIN_MENU = True
 MENUITEMS = (
     ("Inicio", "/"),
-    ("Investigaciones", "/category/investigaciones/"),
+    ("Investigaciones", "/categoria/investigaciones/"),
     ("Proyectos", "/pages/proyectos/"),
     ("Sobre mí", "/pages/sobre-mi/"),
 )
