@@ -48,7 +48,7 @@ Aquí están los proyectos que he desarrollado. Cada uno es un producto real, en
   justify-content: center;
 }
 .project-info h3 {
-  font-size: 1.5rem;
+  font-size: 1.65rem;
   font-weight: 700;
   margin-bottom: 6px;
   line-height: 1.2;
@@ -56,12 +56,12 @@ Aquí están los proyectos que he desarrollado. Cada uno es un producto real, en
 .project-sub {
   color: #1a6b5a;
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   margin-bottom: 14px;
 }
 .project-info p {
   color: #4a4238;
-  font-size: 0.92rem;
+  font-size: 1rem;
   line-height: 1.7;
   margin-bottom: 16px;
 }
@@ -74,9 +74,9 @@ Aquí están los proyectos que he desarrollado. Cada uno es un producto real, en
 .project-tags span {
   background: #f0ece6;
   color: #4a4238;
-  padding: 3px 12px;
-  border-radius: 12px;
-  font-size: 0.72rem;
+  padding: 4px 14px;
+  border-radius: 14px;
+  font-size: 0.8rem;
   font-weight: 500;
 }
 .project-links {
@@ -87,11 +87,11 @@ Aquí están los proyectos que he desarrollado. Cada uno es un producto real, en
 .project-links a {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 10px 20px;
+  gap: 8px;
+  padding: 12px 24px;
   border-radius: 8px;
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   text-decoration: none;
   transition: all 0.2s;
 }
@@ -123,7 +123,7 @@ Aquí están los proyectos que he desarrollado. Cada uno es un producto real, en
   <div class="project-card-inner">
     <div class="project-screenshot">
       <a href="https://ecusoluciones.com" target="_blank" rel="noopener">
-        <img src="https://i.imgur.com/BluSNUG.jpeg" alt="EcuSoluciones preview" style="width:100%;height:100%;object-fit:cover;">
+        <img src="/images/ecusoluciones.png" alt="EcuSoluciones preview" style="width:100%;height:100%;object-fit:cover;">
       </a>
     </div>
     <div class="project-info">
@@ -151,7 +151,7 @@ Aquí están los proyectos que he desarrollado. Cada uno es un producto real, en
   <div class="project-card-inner">
     <div class="project-screenshot">
       <a href="https://estudiodemercadogratis.com" target="_blank" rel="noopener">
-        <img src="https://i.imgur.com/BluSNUG.jpeg" alt="Estudio de Mercado Gratis preview" style="width:100%;height:100%;object-fit:cover;">
+        <img src="/images/estudio-mercado.png" alt="Estudio de Mercado Gratis preview" style="width:100%;height:100%;object-fit:cover;">
       </a>
     </div>
     <div class="project-info">
