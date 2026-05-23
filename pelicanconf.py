@@ -3,11 +3,11 @@
 # v1.0 - Primer despliegue
 
 # --- Información del sitio ---
-SITENAME = "Gabriel Hernández | Economista"
+SITENAME = "Gabriel Hernández | Economista & Desarrollador Web"
 SITEURL = "https://gabohndz.github.io"
 SITETITLE = "Gabriel Hernández"
-SITESUBTITLE = "Economista | Desarrollador de Proyectos de IA (Python) | Estrategia de Mercado y Análisis de Datos"
-SITEDESCRIPTION = "Portafolio personal de investigación económica, desarrollo de IA con Python, estrategia de mercado y análisis de datos."
+SITESUBTITLE = "Economista · Desarrollador Web · Análisis de Datos · Estrategia de Mercado"
+SITEDESCRIPTION = "Portafolio profesional: investigación económica, desarrollo web con Python, landing pages, análisis de datos y automatización. Transformo números en soluciones digitales."
 SITELOGO = "/images/logo.png"
 FAVICON = "/images/favicon.ico"
 AUTHOR = "Gabriel Hernández"
@@ -63,7 +63,8 @@ AUTHOR_FEED_RSS = None
 SOCIAL = (
     ("LinkedIn", "https://linkedin.com/in/gabriel-hernandez-mota-9594821a5/"),
     ("GitHub", "https://github.com/gabohndz"),
-    ("Email", "mailto:gabriel@ejemplo.com"),
+    ("Email", "mailto:gabrielhernandez@ecusoluciones.com"),
+    ("WhatsApp", "https://wa.me/593987812178"),
 )
 LINKS = (
     ("LinkedIn", "https://linkedin.com/in/gabriel-hernandez-mota-9594821a5/"),
