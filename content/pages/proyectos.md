@@ -48,22 +48,22 @@ Aquí están los proyectos que he desarrollado. Cada uno es un producto real, en
   justify-content: center;
 }
 .project-info h3 {
-  font-size: 1.65rem;
+  font-size: 1.85rem;
   font-weight: 700;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   line-height: 1.2;
 }
 .project-sub {
   color: #1a6b5a;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   margin-bottom: 14px;
 }
 .project-info p {
   color: #4a4238;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.7;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 .project-tags {
   display: flex;
@@ -76,7 +76,7 @@ Aquí están los proyectos que he desarrollado. Cada uno es un producto real, en
   color: #4a4238;
   padding: 4px 14px;
   border-radius: 14px;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   font-weight: 500;
 }
 .project-links {
@@ -91,7 +91,7 @@ Aquí están los proyectos que he desarrollado. Cada uno es un producto real, en
   padding: 12px 24px;
   border-radius: 8px;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   text-decoration: none;
   transition: all 0.2s;
 }
