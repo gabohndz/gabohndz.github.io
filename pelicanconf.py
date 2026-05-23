@@ -106,8 +106,8 @@ SHOW_CATEGORIES_ON_MENU = False
 MENUITEMS = (
     ("Inicio", "/"),
     ("Investigaciones", "/categoria/investigaciones/"),
-    ("Proyectos", "/pages/proyectos/"),
-    ("Sobre mí", "/pages/sobre-mi/"),
+    ("Proyectos", "/proyectos/"),
+    ("Sobre mí", "/sobre-mi/"),
 )
 
 # --- Pygments (colores de código) ---
