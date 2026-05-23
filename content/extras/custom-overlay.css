@@ -92,11 +92,30 @@
   font-size: 0.85em;
 }
 
-/* --- Navegación más limpia --- */
+/* --- Navegación más visible --- */
 .nav-header {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  background: rgba(255,255,255,0.92) !important;
+  background: rgba(255,255,255,0.97) !important;
+  border-bottom: 1px solid #e8e0d8;
+}
+
+/* Links del menú más oscuros y legibles */
+.nav-header li a {
+  color: #4a4238 !important;
+  font-weight: 500 !important;
+}
+
+/* Página activa: más notoria */
+.nav-header li.active a {
+  color: #1a6b5a !important;
+  font-weight: 700 !important;
+}
+
+.nav-header li.active a:before {
+  background: #1a6b5a !important;
+  height: 4px !important;
+  margin-top: -2rem !important;
 }
 
 /* --- Footer con color --- */
