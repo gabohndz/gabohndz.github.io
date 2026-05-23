@@ -29,8 +29,8 @@ ARTICLE_URL = "{category}/{slug}/"
 ARTICLE_SAVE_AS = "{category}/{slug}/index.html"
 PAGE_URL = "{slug}/"
 PAGE_SAVE_AS = "{slug}/index.html"
-CATEGORY_URL = "categoria/{slug}/"
-CATEGORY_SAVE_AS = "categoria/{slug}/index.html"
+CATEGORY_URL = "{slug}/"
+CATEGORY_SAVE_AS = "{slug}/index.html"
 TAG_URL = "etiqueta/{slug}/"
 TAG_SAVE_AS = "etiqueta/{slug}/index.html"
 TAGS_URL = "etiquetas/"
@@ -105,7 +105,7 @@ SHOW_CATEGORIES_ON_MENU = False
 
 MENUITEMS = (
     ("Inicio", "/"),
-    ("Investigaciones", "/categoria/investigaciones/"),
+    ("Investigaciones", "/investigaciones/"),
     ("Proyectos", "/proyectos/"),
     ("Sobre mí", "/sobre-mi/"),
 )

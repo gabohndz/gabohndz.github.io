@@ -118,9 +118,17 @@
   margin-top: -2rem !important;
 }
 
-/* --- Footer con color --- */
+/* --- Footer con color y sin tanto espacio --- */
 .nav-footer {
   border-top: 2px solid var(--color-primary);
+  padding-top: 4rem !important;
+  padding-bottom: 2.5rem !important;
+}
+
+/* --- Ocultar "Category" y "N Post" en páginas de categorías/tags --- */
+.archive-type,
+.archive-count {
+  display: none !important;
 }
 
 /* --- Responsive: contenido no tan ancho --- */
