@@ -175,3 +175,87 @@ Aquí están los proyectos que he desarrollado. Cada uno es un producto real, en
 </div>
 
 > Cada proyecto es real, está en producción y puedes interactuar con él directamente.
+
+---
+
+> **💡 Nota:** Todos estos proyectos los he desarrollado en mi tiempo libre, por pura pasión por crear cosas nuevas, sin recibir nada económico a cambio. Simplemente porque quiero y disfruto hacerlo 😊
+
+<!-- ========== AUTOSHORTS — INTERFACES COMFYUI ========== -->
+<div class="project-card">
+  <div class="project-card-inner">
+    <div class="project-screenshot">
+      <img src="/images/autoshorts-interfaces.webp" alt="AutoShorts Interfaces preview" style="width:100%;height:100%;object-fit:cover;">
+    </div>
+    <div class="project-info">
+      <h3>AutoShorts — Interfaces de IA Local</h3>
+      <div class="project-sub">Generación de imágenes · Animaciones · Social Canvas</div>
+      <p>Interfaces gráficas con Gradio para generar imágenes usando modelos locales vía ComfyUI. Incluye <strong>txt2img</strong>, <strong>img2img</strong>, animaciones con <strong>AnimateDiff</strong>, comparador de modelos y un <strong>Social Canvas</strong> tipo Canva para crear contenido para redes sociales con fondos generados por IA. Todo corriendo 100% local con Pony Diffusion V6 XL.</p>
+      <div class="project-tags">
+        <span>Python</span>
+        <span>Gradio</span>
+        <span>ComfyUI</span>
+        <span>Pony Diffusion</span>
+        <span>AnimateDiff</span>
+        <span>IA Local</span>
+      </div>
+      <div class="project-links">
+        <a href="https://drive.google.com/file/d/1mhsA4WE7fufK6xhMOov7mISeyVyZcrsI/view?usp=sharing" target="_blank" rel="noopener" class="primary">🖼️ Ver imagen de ejemplo</a>
+        <a href="https://drive.google.com/file/d/1mhsA4WE7fufK6xhMOov7mISeyVyZcrsI/view?usp=sharing" target="_blank" rel="noopener" class="secondary">🔗 Google Drive</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========== AUTOSHORTS — CREADOR DE CÓMICS ========== -->
+<div class="project-card">
+  <div class="project-card-inner">
+    <div class="project-screenshot">
+      <img src="/images/autoshorts-comic.jpg" alt="Creador de Cómics preview" style="width:100%;height:100%;object-fit:cover;">
+    </div>
+    <div class="project-info">
+      <h3>Creador Automático de Cómics</h3>
+      <div class="project-sub">Formato propio · YAML → Cómic · Consistencia visual</div>
+      <p>Sistema que convierte archivos <strong>YAML</strong> en cómics completos con personajes consistentes, diálogos con estilo (grito, susurro, pensamiento), efectos de sonido y maquetado automático de páginas. Cada personaje mantiene su apariencia gracias a un sistema de <strong>seeds fijos</strong> y cache de referencias. Incluye ejemplos como un comic de Mario Bros y uno cyberpunk.</p>
+      <div class="project-tags">
+        <span>Python</span>
+        <span>YAML</span>
+        <span>ComfyUI</span>
+        <span>Pillow</span>
+        <span>PDF</span>
+        <span>IA Generativa</span>
+        <span>Pipeline</span>
+      </div>
+      <div class="project-links">
+        <a href="https://drive.google.com/file/d/1BKVbGLRfBC1S_gtvA3ft8kx_Oi4kp9zJ/view?usp=sharing" target="_blank" rel="noopener" class="primary">🦸 Ver comic de ejemplo (PDF)</a>
+        <a href="https://drive.google.com/file/d/1BKVbGLRfBC1S_gtvA3ft8kx_Oi4kp9zJ/view?usp=sharing" target="_blank" rel="noopener" class="secondary">🔗 Google Drive</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========== AUTOSHORTS — EDITOR DE SHORTS ========== -->
+<div class="project-card">
+  <div class="project-card-inner">
+    <div class="project-screenshot">
+      <img src="/images/autoshorts-short.jpg" alt="Editor de Shorts preview" style="width:100%;height:100%;object-fit:cover;">
+    </div>
+    <div class="project-info">
+      <h3>Editor Automático de Shorts</h3>
+      <div class="project-sub">Video · Voz · Música · Automatización total</div>
+      <p>Convierte guiones de texto en <strong>shorts</strong> listos para TikTok, YouTube e Instagram. Descarga imágenes automáticamente por palabras clave, genera voz con <strong>IA</strong> (F5-TTS / XTTS), añade música de fondo con emoción seleccionable, subtítulos automáticos, efecto <strong>Ken Burns</strong> y sincronización perfecta. Todo desde un solo comando.</p>
+      <div class="project-tags">
+        <span>Python</span>
+        <span>MoviePy</span>
+        <span>Whisper</span>
+        <span>NVIDIA API</span>
+        <span>TTS</span>
+        <span>Automatización</span>
+        <span>IA</span>
+      </div>
+      <div class="project-links">
+        <a href="https://drive.google.com/file/d/1oiCC8A8ZqWvikouNMq3k-UxLdtJHv9-Y/view?usp=sharing" target="_blank" rel="noopener" class="primary">🎬 Ver short de ejemplo</a>
+        <a href="https://drive.google.com/file/d/1oiCC8A8ZqWvikouNMq3k-UxLdtJHv9-Y/view?usp=sharing" target="_blank" rel="noopener" class="secondary">🔗 Google Drive</a>
+      </div>
+    </div>
+  </div>
+</div>
